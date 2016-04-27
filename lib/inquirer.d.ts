@@ -1,3 +1,5 @@
+import { Promise } from 'es6-promise';
+
 export function restoreDefaultPrompts (): void;
 
 /**
@@ -16,7 +18,7 @@ export function createPromptModule (): PromptModule;
  * @param cb Callback being passed the user answers
  * @return
  */
-export function prompt (questions: Questions, cb?: (answers: Answers) => any): UI.Prompt;
+export function prompt (questions: Questions): Promise<Answers>;
 
 export var prompts: Prompts;
 export var Separator: objects.SeparatorStatic;

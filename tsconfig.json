@@ -1,0 +1,10 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "noImplicitAny": true
+  },
+  "files": [
+    "lib/inquirer.d.ts",
+    "typings/main.d.ts"
+  ]
+}
