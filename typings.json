@@ -1,6 +1,7 @@
 {
   "name": "inquirer",
   "main": "lib/inquirer.d.ts",
+  "version": "^1.0.0",
   "dependencies": {
     "es6-promise": "registry:npm/es6-promise#3.0.0+20160211003958"
   }
